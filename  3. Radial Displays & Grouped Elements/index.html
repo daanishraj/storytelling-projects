@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- The browser can use non-English-language characters (...kind of) -->
+      <meta charset="utf-8">
+      <style>
+      body { 
+        font-family: "Helvetica Neue"; 
+        font-weight: 300; 
+      }
+      svg { background: #f9f9f9; }
+      </style>
+  </head>
+  <body>
+    <h1>Homework 4: Radial displays and grouped elements</h1>
+
+    <p><strong>"Make your visualizations win design awards,"</strong> I say. "But make sure your classwork and homework are REALLY ugly." Let's change that this time! You can see a preview of the expected-ish results in <a href="preview.pdf">preview.pdf</a></p>
+
+    <p>There are <strong>multiple hints</strong> for each graphic inside of the 'hints' directory.</p>
+
+    <p>You should be doing a lot of cutting and pasting, I think.</p>
+
+    <h2>1. A simple, centered pie chart</h2>
+    <p>For this one you'll also need to add labels, which involves a second arc that you use to position the text. This arc can be larger or smaller depending on where you'd like the labels to be. You can see some code that you can use for inspiration <a href="https://bl.ocks.org/mbostock/3887235">right here</a>.</p>
+
+    <div id="chart-1"></div>
+
+    <h2>2. Pie chart, small multiples</h2>
+    <p>Same as above, but small multiples'd. You don't need to label the wedges.</p>
+    <div id="chart-2"></div>
+
+    <h2>3. Fixed-wedge size pie</h2>
+    <p>Every wedge in the pie gets the same width, so even though you use the pie generator, you're going to set value to always be 1/12 - that way each slice takes up 1/12th of the entire pie.</p>
+    <p>To make the arcs larger or smaller you'll need to edit something else.</p>
+    <div id="chart-3"></div>
+
+    <h2>3b. Small multiples of Chart 3</h2>
+    <p>Now you'll just have to re-use your code to distribute it across the x axis.</p>
+    <div id="chart-3b"></div>
+
+    <h2>3c. Chart 3, also showing the minimum temperature for each month</h2>
+    <p>Isn't this getting fun?</p>
+    <div id="chart-3c"></div>
+
+    <h2>4. Radial area charts</h2>
+    <p>We've done area charts and we've done radial charts, so you're going to put the two concepts together and build <strong>radial area charts</strong>. Instead of y0 and y1 you need to provie something else...</p>
+    <p>If you'd like to read <a href="https://github.com/d3/d3-shape">the documentation</a> it's radialArea (of course).
+
+    <div id="chart-4"></div>
+
+    <h2>5. Radial area charts, small multiples </h2>
+    <p>You've made it so far, <a href="https://www.youtube.com/watch?v=IPjvDE-rKo0">great work</a>.</p>
+
+    <div id="chart-5"></div>
+
+    <!-- This is D3, our graphing library -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+
+    <!-- Now we include our actual visualization -->
+      <script src="chart-1.js"></script>
+      <script src="chart-2.js"></script>
+      <script src="chart-3.js"></script>
+      <script src="chart-3b.js"></script>
+      <script src="chart-3c.js"></script>
+      <script src="chart-4.js"></script>
+      <script src="chart-5.js"></script>
+  </body>
+</html>
