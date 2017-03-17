@@ -1,0 +1,966 @@
+{
+	"nodes": [
+		{
+			"character": "Billy (Bill Nighy)",
+			"n": "5",
+			"label": "Billy (Bill Nighy)",
+			"id": "Billy (Bill Nighy)"
+		},
+		{
+			"character": "Joe (Gregor Fisher)",
+			"n": "3",
+			"label": "Joe (Gregor Fisher)",
+			"id": "Joe (Gregor Fisher)"
+		},
+		{
+			"character": "Jamie (Colin Firth)",
+			"n": "5",
+			"label": "Jamie (Colin Firth)",
+			"id": "Jamie (Colin Firth)"
+		},
+		{
+			"character": "Daniel (Liam Neeson)",
+			"n": "3",
+			"label": "Daniel (Liam Neeson)",
+			"id": "Daniel (Liam Neeson)"
+		},
+		{
+			"character": "Karen (Emma Thompson)",
+			"n": "6",
+			"label": "Karen (Emma Thompson)",
+			"id": "Karen (Emma Thompson)"
+		},
+		{
+			"character": "Colin (Kris Marshall)",
+			"n": "4",
+			"label": "Colin (Kris Marshall)",
+			"id": "Colin (Kris Marshall)"
+		},
+		{
+			"character": "Jack (Martin Freeman)",
+			"n": "2",
+			"label": "Jack (Martin Freeman)",
+			"id": "Jack (Martin Freeman)"
+		},
+		{
+			"character": "Judy (Joanna Page)",
+			"n": "1",
+			"label": "Judy (Joanna Page)",
+			"id": "Judy (Joanna Page)"
+		},
+		{
+			"character": "Mark (Andrew Lincoln)",
+			"n": "4",
+			"label": "Mark (Andrew Lincoln)",
+			"id": "Mark (Andrew Lincoln)"
+		},
+		{
+			"character": "Peter (Chiwetel Ejiofor)",
+			"n": "4",
+			"label": "Peter (Chiwetel Ejiofor)",
+			"id": "Peter (Chiwetel Ejiofor)"
+		},
+		{
+			"character": "Natalie (Martine McCutcheon)",
+			"n": "4",
+			"label": "Natalie (Martine McCutcheon)",
+			"id": "Natalie (Martine McCutcheon)"
+		},
+		{
+			"character": "PM (Hugh Grant)",
+			"n": "12",
+			"label": "PM (Hugh Grant)",
+			"id": "PM (Hugh Grant)"
+		},
+		{
+			"character": "Juliet (Keira Knightley)",
+			"n": "1",
+			"label": "Juliet (Keira Knightley)",
+			"id": "Juliet (Keira Knightley)"
+		},
+		{
+			"character": "Tony (Abdul Salis)",
+			"n": "4",
+			"label": "Tony (Abdul Salis)",
+			"id": "Tony (Abdul Salis)"
+		},
+		{
+			"character": "Sarah (Laura Linney)",
+			"n": "4",
+			"label": "Sarah (Laura Linney)",
+			"id": "Sarah (Laura Linney)"
+		},
+		{
+			"character": "Harry (Alan Rickman)",
+			"n": "9",
+			"label": "Harry (Alan Rickman)",
+			"id": "Harry (Alan Rickman)"
+		},
+		{
+			"character": "Karl (Rodrigo Santoro)",
+			"n": "1",
+			"label": "Karl (Rodrigo Santoro)",
+			"id": "Karl (Rodrigo Santoro)"
+		},
+		{
+			"character": "Mia (Heike Makatsch)",
+			"n": "2",
+			"label": "Mia (Heike Makatsch)",
+			"id": "Mia (Heike Makatsch)"
+		},
+		{
+			"character": "Sam (Thomas Sangster)",
+			"n": "7",
+			"label": "Sam (Thomas Sangster)",
+			"id": "Sam (Thomas Sangster)"
+		},
+		{
+			"character": "Aurelia (Lúcia Moniz)",
+			"n": "1",
+			"label": "Aurelia (Lúcia Moniz)",
+			"id": "Aurelia (Lúcia Moniz)"
+		}
+	],
+	"links": [
+		{
+			"id": 0,
+			"source": "Joe (Gregor Fisher)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 4,
+			"relationship": "friendship"
+		},
+		{
+			"id": 1,
+			"source": "Jamie (Colin Firth)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 2,
+			"source": "Jamie (Colin Firth)",
+			"target": "Joe (Gregor Fisher)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 3,
+			"source": "Daniel (Liam Neeson)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 4,
+			"source": "Daniel (Liam Neeson)",
+			"target": "Joe (Gregor Fisher)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 5,
+			"source": "Daniel (Liam Neeson)",
+			"target": "Jamie (Colin Firth)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 6,
+			"source": "Karen (Emma Thompson)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 7,
+			"source": "Karen (Emma Thompson)",
+			"target": "Joe (Gregor Fisher)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 8,
+			"source": "Karen (Emma Thompson)",
+			"target": "Jamie (Colin Firth)",
+			"weight": 2,
+			"relationship": "default"
+		},
+		{
+			"id": 9,
+			"source": "Karen (Emma Thompson)",
+			"target": "Daniel (Liam Neeson)",
+			"weight": 3,
+			"relationship": "friendship"
+		},
+		{
+			"id": 10,
+			"source": "Colin (Kris Marshall)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 11,
+			"source": "Colin (Kris Marshall)",
+			"target": "Joe (Gregor Fisher)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 12,
+			"source": "Colin (Kris Marshall)",
+			"target": "Jamie (Colin Firth)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 13,
+			"source": "Colin (Kris Marshall)",
+			"target": "Daniel (Liam Neeson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 14,
+			"source": "Colin (Kris Marshall)",
+			"target": "Karen (Emma Thompson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 15,
+			"source": "Jack (Martin Freeman)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 16,
+			"source": "Jack (Martin Freeman)",
+			"target": "Joe (Gregor Fisher)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 17,
+			"source": "Jack (Martin Freeman)",
+			"target": "Jamie (Colin Firth)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 18,
+			"source": "Jack (Martin Freeman)",
+			"target": "Daniel (Liam Neeson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 19,
+			"source": "Jack (Martin Freeman)",
+			"target": "Karen (Emma Thompson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 20,
+			"source": "Jack (Martin Freeman)",
+			"target": "Colin (Kris Marshall)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 21,
+			"source": "Judy (Joanna Page)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 22,
+			"source": "Judy (Joanna Page)",
+			"target": "Joe (Gregor Fisher)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 23,
+			"source": "Judy (Joanna Page)",
+			"target": "Jamie (Colin Firth)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 24,
+			"source": "Judy (Joanna Page)",
+			"target": "Daniel (Liam Neeson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 25,
+			"source": "Judy (Joanna Page)",
+			"target": "Karen (Emma Thompson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 26,
+			"source": "Judy (Joanna Page)",
+			"target": "Colin (Kris Marshall)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 27,
+			"source": "Judy (Joanna Page)",
+			"target": "Jack (Martin Freeman)",
+			"weight": 6,
+			"relationship": "romantic"
+		},
+		{
+			"id": 28,
+			"source": "Mark (Andrew Lincoln)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 29,
+			"source": "Mark (Andrew Lincoln)",
+			"target": "Joe (Gregor Fisher)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 30,
+			"source": "Mark (Andrew Lincoln)",
+			"target": "Jamie (Colin Firth)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 31,
+			"source": "Mark (Andrew Lincoln)",
+			"target": "Daniel (Liam Neeson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 32,
+			"source": "Mark (Andrew Lincoln)",
+			"target": "Karen (Emma Thompson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 33,
+			"source": "Mark (Andrew Lincoln)",
+			"target": "Colin (Kris Marshall)",
+			"weight": 2,
+			"relationship": "default"
+		},
+		{
+			"id": 34,
+			"source": "Mark (Andrew Lincoln)",
+			"target": "Jack (Martin Freeman)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 35,
+			"source": "Mark (Andrew Lincoln)",
+			"target": "Judy (Joanna Page)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 36,
+			"source": "Peter (Chiwetel Ejiofor)",
+			"target": "Mark (Andrew Lincoln)",
+			"weight": 4,
+			"relationship": "friendship"
+		},
+		{
+			"id": 37,
+			"source": "Natalie (Martine McCutcheon)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 38,
+			"source": "Natalie (Martine McCutcheon)",
+			"target": "Joe (Gregor Fisher)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 39,
+			"source": "Natalie (Martine McCutcheon)",
+			"target": "Jamie (Colin Firth)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 40,
+			"source": "Natalie (Martine McCutcheon)",
+			"target": "Daniel (Liam Neeson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 41,
+			"source": "Natalie (Martine McCutcheon)",
+			"target": "Karen (Emma Thompson)",
+			"weight": 2,
+			"relationship": "default"
+		},
+		{
+			"id": 42,
+			"source": "Natalie (Martine McCutcheon)",
+			"target": "Colin (Kris Marshall)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 43,
+			"source": "Natalie (Martine McCutcheon)",
+			"target": "Jack (Martin Freeman)",
+			"weight": 2,
+			"relationship": "default"
+		},
+		{
+			"id": 44,
+			"source": "Natalie (Martine McCutcheon)",
+			"target": "Judy (Joanna Page)",
+			"weight": 2,
+			"relationship": "default"
+		},
+		{
+			"id": 45,
+			"source": "Natalie (Martine McCutcheon)",
+			"target": "Mark (Andrew Lincoln)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 46,
+			"source": "PM (Hugh Grant)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 47,
+			"source": "PM (Hugh Grant)",
+			"target": "Joe (Gregor Fisher)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 48,
+			"source": "PM (Hugh Grant)",
+			"target": "Jamie (Colin Firth)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 49,
+			"source": "PM (Hugh Grant)",
+			"target": "Daniel (Liam Neeson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 50,
+			"source": "PM (Hugh Grant)",
+			"target": "Karen (Emma Thompson)",
+			"weight": 3,
+			"relationship": "family"
+		},
+		{
+			"id": 51,
+			"source": "PM (Hugh Grant)",
+			"target": "Colin (Kris Marshall)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 52,
+			"source": "PM (Hugh Grant)",
+			"target": "Jack (Martin Freeman)",
+			"weight": 2,
+			"relationship": "default"
+		},
+		{
+			"id": 53,
+			"source": "PM (Hugh Grant)",
+			"target": "Judy (Joanna Page)",
+			"weight": 2,
+			"relationship": "default"
+		},
+		{
+			"id": 54,
+			"source": "PM (Hugh Grant)",
+			"target": "Mark (Andrew Lincoln)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 55,
+			"source": "PM (Hugh Grant)",
+			"target": "Natalie (Martine McCutcheon)",
+			"weight": 10,
+			"relationship": "romantic"
+		},
+		{
+			"id": 56,
+			"source": "Juliet (Keira Knightley)",
+			"target": "Mark (Andrew Lincoln)",
+			"weight": 4,
+			"relationship": "romantic"
+		},
+		{
+			"id": 57,
+			"source": "Juliet (Keira Knightley)",
+			"target": "Peter (Chiwetel Ejiofor)",
+			"weight": 3,
+			"relationship": "romantic"
+		},
+		{
+			"id": 58,
+			"source": "Tony (Abdul Salis)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 59,
+			"source": "Tony (Abdul Salis)",
+			"target": "Joe (Gregor Fisher)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 60,
+			"source": "Tony (Abdul Salis)",
+			"target": "Jamie (Colin Firth)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 61,
+			"source": "Tony (Abdul Salis)",
+			"target": "Daniel (Liam Neeson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 62,
+			"source": "Tony (Abdul Salis)",
+			"target": "Karen (Emma Thompson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 63,
+			"source": "Tony (Abdul Salis)",
+			"target": "Colin (Kris Marshall)",
+			"weight": 5,
+			"relationship": "friendship"
+		},
+		{
+			"id": 64,
+			"source": "Tony (Abdul Salis)",
+			"target": "Jack (Martin Freeman)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 65,
+			"source": "Tony (Abdul Salis)",
+			"target": "Judy (Joanna Page)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 66,
+			"source": "Tony (Abdul Salis)",
+			"target": "Mark (Andrew Lincoln)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 67,
+			"source": "Tony (Abdul Salis)",
+			"target": "Natalie (Martine McCutcheon)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 68,
+			"source": "Tony (Abdul Salis)",
+			"target": "PM (Hugh Grant)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 69,
+			"source": "Sarah (Laura Linney)",
+			"target": "Karen (Emma Thompson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 70,
+			"source": "Sarah (Laura Linney)",
+			"target": "Mark (Andrew Lincoln)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 71,
+			"source": "Harry (Alan Rickman)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 72,
+			"source": "Harry (Alan Rickman)",
+			"target": "Joe (Gregor Fisher)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 73,
+			"source": "Harry (Alan Rickman)",
+			"target": "Jamie (Colin Firth)",
+			"weight": 2,
+			"relationship": "default"
+		},
+		{
+			"id": 74,
+			"source": "Harry (Alan Rickman)",
+			"target": "Daniel (Liam Neeson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 75,
+			"source": "Harry (Alan Rickman)",
+			"target": "Karen (Emma Thompson)",
+			"weight": 8,
+			"relationship": "romantic"
+		},
+		{
+			"id": 76,
+			"source": "Harry (Alan Rickman)",
+			"target": "Colin (Kris Marshall)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 77,
+			"source": "Harry (Alan Rickman)",
+			"target": "Jack (Martin Freeman)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 78,
+			"source": "Harry (Alan Rickman)",
+			"target": "Judy (Joanna Page)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 79,
+			"source": "Harry (Alan Rickman)",
+			"target": "Mark (Andrew Lincoln)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 80,
+			"source": "Harry (Alan Rickman)",
+			"target": "Natalie (Martine McCutcheon)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 81,
+			"source": "Harry (Alan Rickman)",
+			"target": "PM (Hugh Grant)",
+			"weight": 2,
+			"relationship": "family"
+		},
+		{
+			"id": 82,
+			"source": "Harry (Alan Rickman)",
+			"target": "Tony (Abdul Salis)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 83,
+			"source": "Harry (Alan Rickman)",
+			"target": "Sarah (Laura Linney)",
+			"weight": 2,
+			"relationship": "work"
+		},
+		{
+			"id": 84,
+			"source": "Karl (Rodrigo Santoro)",
+			"target": "Karen (Emma Thompson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 85,
+			"source": "Karl (Rodrigo Santoro)",
+			"target": "Sarah (Laura Linney)",
+			"weight": 5,
+			"relationship": "romantic"
+		},
+		{
+			"id": 86,
+			"source": "Karl (Rodrigo Santoro)",
+			"target": "Harry (Alan Rickman)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 87,
+			"source": "Mia (Heike Makatsch)",
+			"target": "Karen (Emma Thompson)",
+			"weight": 2,
+			"relationship": "default"
+		},
+		{
+			"id": 88,
+			"source": "Mia (Heike Makatsch)",
+			"target": "Natalie (Martine McCutcheon)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 89,
+			"source": "Mia (Heike Makatsch)",
+			"target": "PM (Hugh Grant)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 90,
+			"source": "Mia (Heike Makatsch)",
+			"target": "Sarah (Laura Linney)",
+			"weight": 2,
+			"relationship": "work"
+		},
+		{
+			"id": 91,
+			"source": "Mia (Heike Makatsch)",
+			"target": "Harry (Alan Rickman)",
+			"weight": 5,
+			"relationship": "romantic"
+		},
+		{
+			"id": 92,
+			"source": "Mia (Heike Makatsch)",
+			"target": "Karl (Rodrigo Santoro)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 93,
+			"source": "Sam (Thomas Sangster)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 94,
+			"source": "Sam (Thomas Sangster)",
+			"target": "Joe (Gregor Fisher)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 95,
+			"source": "Sam (Thomas Sangster)",
+			"target": "Jamie (Colin Firth)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 96,
+			"source": "Sam (Thomas Sangster)",
+			"target": "Daniel (Liam Neeson)",
+			"weight": 9,
+			"relationship": "family"
+		},
+		{
+			"id": 97,
+			"source": "Sam (Thomas Sangster)",
+			"target": "Karen (Emma Thompson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 98,
+			"source": "Sam (Thomas Sangster)",
+			"target": "Colin (Kris Marshall)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 99,
+			"source": "Sam (Thomas Sangster)",
+			"target": "Jack (Martin Freeman)",
+			"weight": 2,
+			"relationship": "default"
+		},
+		{
+			"id": 100,
+			"source": "Sam (Thomas Sangster)",
+			"target": "Judy (Joanna Page)",
+			"weight": 2,
+			"relationship": "default"
+		},
+		{
+			"id": 101,
+			"source": "Sam (Thomas Sangster)",
+			"target": "Mark (Andrew Lincoln)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 102,
+			"source": "Sam (Thomas Sangster)",
+			"target": "Natalie (Martine McCutcheon)",
+			"weight": 2,
+			"relationship": "default"
+		},
+		{
+			"id": 103,
+			"source": "Sam (Thomas Sangster)",
+			"target": "PM (Hugh Grant)",
+			"weight": 2,
+			"relationship": "default"
+		},
+		{
+			"id": 104,
+			"source": "Sam (Thomas Sangster)",
+			"target": "Tony (Abdul Salis)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 105,
+			"source": "Sam (Thomas Sangster)",
+			"target": "Harry (Alan Rickman)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 106,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "Billy (Bill Nighy)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 107,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "Joe (Gregor Fisher)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 108,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "Jamie (Colin Firth)",
+			"weight": 6,
+			"relationship": "romantic"
+		},
+		{
+			"id": 109,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "Daniel (Liam Neeson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 110,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "Karen (Emma Thompson)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 111,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "Colin (Kris Marshall)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 112,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "Jack (Martin Freeman)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 113,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "Judy (Joanna Page)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 114,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "Mark (Andrew Lincoln)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 115,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "Natalie (Martine McCutcheon)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 116,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "PM (Hugh Grant)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 117,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "Tony (Abdul Salis)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 118,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "Harry (Alan Rickman)",
+			"weight": 1,
+			"relationship": "default"
+		},
+		{
+			"id": 119,
+			"source": "Aurelia (Lúcia Moniz)",
+			"target": "Sam (Thomas Sangster)",
+			"weight": 1,
+			"relationship": "default"
+		}
+	]
+}

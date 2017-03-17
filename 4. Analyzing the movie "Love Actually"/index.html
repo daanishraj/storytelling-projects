@@ -1,0 +1,328 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- The browser can use non-English-language characters (...kind of) -->
+      <meta charset="utf-8">
+      <title>A Look at Love Actually</title>
+      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+      <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Courgette|Pacifico" rel="stylesheet">
+
+      <script>
+      function myfun(){
+      $(".dropdown-menu li a").click(function(){
+        $(this).parents(".btn-group").find('.selection').text($(this).text());
+        $(this).parents(".btn-group").find('.selection').val($(this).text());
+      });
+      }
+      </script>
+
+      <style>
+        * {
+          font-family: "PT Sans", sans-serif;
+
+          margin:0;
+          padding:0;
+          border: 0;
+          outline: 0;
+          font-size: 100%;
+          vertical-align: baseline;
+          background: transparent;
+        }
+
+
+        p, text {
+          font-size: 1.20em;
+        }
+        body {
+          margin-left: auto;
+          margin-right: auto;
+          width:1100px;
+          text-align: center;
+        }
+        h3 {
+          margin:10px;
+        }
+        div.tooltip {
+          position: absolute;
+          text-align: center;
+          color: white;
+          width: 160px;
+          padding: 5px;
+          font: 13px sans-serif;
+          font-family: "PT Sans", sans-serif;
+          background: black;
+          border: 0px;
+          border-radius: 4px;
+          pointer-events: none;
+          opacity: 0.6;
+          z-index: 2;
+        }
+        .grid line {
+          stroke: lightgrey;
+          stroke-opacity: 0.4;
+          stroke-dasharray: 2;
+          stroke-linecap: "butt"
+        }
+
+        .grid2 line {
+          stroke: grey;
+          stroke-opacity: 0.6;
+          stroke-dasharray: 2;
+          stroke-linecap: "butt"
+        }
+
+
+        .grid path {
+          stroke-width: 0;
+        }
+        #ribbon {
+          z-index:-1;
+          height:100%;
+          left:70px;
+          position:fixed;
+          top:0px;
+        }
+        #bow {
+          /*position:fixed;*/
+          position:absolute;
+          left:-30px;
+          height:250px;
+          width:250px;
+        }
+
+        div.scene{
+          margin: 0px 200px 0px 0px;
+          text-align: center;
+        }
+
+        div.btn-group {
+          padding-top: 10px;
+        }
+        *, *:before, *:after {
+          box-sizing: border-box;
+        }
+        @media (min-width: 600px) {
+          body {
+            padding: 60px;
+          }
+        }
+        .range-slider {
+          margin: 30px 10px 0px 50px;
+          /*width: 100%;*/
+          width:915px;
+        }
+        .range-slider__range {
+          -webkit-appearance: none;
+          /*width: calc(100% - (73px));*/
+          width: calc(960px-73px);
+          height: 10px;
+          border-radius: 5px;
+          background: #d7dcdf;
+          outline: none;
+          padding: 0;
+          margin: 0;
+        }
+        .range-slider__range::-webkit-slider-thumb {
+          -webkit-appearance: none;
+                  appearance: none;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background: #2c3e50;
+          cursor: pointer;
+          -webkit-transition: background .15s ease-in-out;
+          transition: background .15s ease-in-out;
+        }
+        .range-slider__range::-webkit-slider-thumb:hover {
+          background: #b61210;
+        }
+        .range-slider__range:active::-webkit-slider-thumb {
+          background: #b61210;
+        }
+        .range-slider__range::-moz-range-thumb {
+          width: 20px;
+          height: 20px;
+          border: 0;
+          border-radius: 50%;
+          background: #2c3e50;
+          cursor: pointer;
+          -webkit-transition: background .15s ease-in-out;
+          transition: background .15s ease-in-out;
+        }
+        .range-slider__range::-moz-range-thumb:hover {
+          background: #b61210;
+        }
+        .range-slider__range:active::-moz-range-thumb {
+          background: #b61210;
+        }
+        .range-slider__value {
+          display: inline-block;
+          position: relative;
+          width: 60px;
+          color: #fff;
+          line-height: 20px;
+          text-align: center;
+          border-radius: 3px;
+          background: #2c3e50;
+          padding: 5px 10px;
+          margin-left: 8px;
+        }
+        .range-slider__value:after {
+          position: absolute;
+          top: 8px;
+          left: -7px;
+          width: 0;
+          height: 0;
+          border-top: 7px solid transparent;
+          border-right: 7px solid #2c3e50;
+          border-bottom: 7px solid transparent;
+          content: '';
+        }
+        ::-moz-range-track {
+          background: #d7dcdf;
+          border: 0;
+        }
+        input::-moz-focus-inner,
+        input::-moz-focus-outer {
+          border: 0;
+        }
+
+        .more {
+          border-radius: 8px;
+       }
+
+      </style>
+  </head>
+  <body>
+
+    <img src="ribbon2_no_bow.png" id="ribbon">
+    <img src="ribbon2.png" id="bow">
+
+    <section>
+      <h1 style="font-size:72px;"><br/>A Look at <span style="color:#b61210">Love Actually</span><br/><br/></h1>
+      <h3 style="font-size:32px;">A visual dive into the characters and their stories <br/><br/><span style="font-size:24px"> by <br/>Stephanie Doctor, Daanish Raj, and Amla Srivastava</span></h3>
+    </section>
+
+
+
+
+
+
+
+    <h3 class="section-break-space"><br/></h3>
+    <hr>
+    <h3 class="section-break-space"><br/></h3>
+
+    <section>
+      <p>It's that time of year; trees are being lit, gifts are being wrapped, and you can't seem to stop hearing "Frosty the Snowman" on repeat. If you're in the holiday spirit, you might sit down to Netflix Love Actually, the Christmassy multiple-storyline rom-com from 2003. But why simply watch it when you can do so much more?<br/></p>
+
+
+      <img class = "more" src="so_much_more.gif">
+
+
+      <p></p>
+    </section>
+
+    <h3 class="section-break-space"><br/></h3>
+    <hr>
+    <h3 class="section-break-space"><br/></h3>
+
+    <section>
+      <h4>What is the overall structure of the movie?</h4>
+      <div id="line-graph"></div>
+    </section>
+
+    <h3 class="section-break-space"><br/></h3>
+    <hr>
+    <h3 class="section-break-space"><br/></h3>
+
+    <section id = 'amla'>
+      <h4>Which characters appear throughout the course of the movie?</h4>
+      <div class = "container">
+
+        <div class = "scene">
+
+        <div class="btn-group">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" onclick = "myfun()">
+          Gender: <span class="selection">All </span> <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#amla" id ="a">All</a></li>
+          <li><a href="#amla" id = "m">Male</a></li>
+          <li><a href="#amla" id = "f">Female</a></li>
+        </ul>
+      </div>
+
+        <!-- <div class="btn-group">
+          <button type="button" class="btn btn-danger" onclick ="myfun()">Gender:<span class="selection">Option 1</span></button>
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li ><a href="#amla" id = "a">All</a></li>
+            <li ><a href="#amla" id = "m">Male</a></li>
+            <li ><a href="#amla" id = "f">Female</a></li>
+          </ul>
+        </div> -->
+
+      </div>
+
+
+
+
+      <div class="range-slider">
+        <input class="range-slider__range" type="range" value="80" min="1" max="80" id ="nRadius">
+      </div>
+
+      <div class = "scene">
+      <br><b> <h4> Scene 1 - <span id="nRadius-value" style="color:#b61210">80</span></b></h4>
+      </div>
+
+
+    </div>
+    <div id="bubble-grid"></div>
+    </section>
+
+    <h3 class="section-break-space"><br/></h3>
+    <hr>
+    <h3 class="section-break-space"><br/></h3>
+
+    <section>
+      <h4>Which characters appear the most together?</h4>
+      <p>
+          <label class="form-check-inline">
+            <input class="form-check-input" type="radio" id="all" name="relationship"> All&nbsp;&nbsp;
+          </label>
+          <label class="form-check-inline">
+            <input class="form-check-input" type="radio" id="romantic" name="relationship"> Romantic&nbsp;&nbsp;
+          </label>
+          <label class="form-check-inline">
+            <input class="form-check-input" type="radio" id="friendship" name="relationship"> Friendship&nbsp;&nbsp;
+          </label>
+          <label class="form-check-inline">
+            <input class="form-check-input" type="radio" id="family" name="relationship"> Family&nbsp;&nbsp;
+          </label>
+          <label class="form-check-inline">
+            <input class="form-check-input" type="radio" id="work" name="relationship"> Work&nbsp;&nbsp;
+          </label>
+      </p>
+      <div id="interactions"></div>
+    </section>
+
+    <!-- This is D3, our graphing library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <!-- Now we include our actual visualization -->
+    <script src="amla_chart-1-2.js"></script>
+    <script src="daanish_chart-1-2.js"></script>
+    <script src="steph_node-link.js"></script>
+
+  </body>
+</html>

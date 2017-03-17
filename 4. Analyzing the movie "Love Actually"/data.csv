@@ -1,0 +1,79 @@
+scene,line,speaker,dialogue,actor,character,num_character,num_lines
+1,,,,,,2,0
+2,2,Billy," ä»È I feel it in my fingers ä»È I feel it in my toes ä»È Feel it in my toes, yeah ä»È    Love is all around me And so the... ä»È",Bill Nighy,Billy (Bill Nighy),2,8
+3,10,Jamie," God, I'm so late.",Colin Firth,Jamie (Colin Firth),1,5
+4,20,Daniel," Karen, it's me again. I'm sorry, I literally don't have anybody else to talk to. ",Liam Neeson,Daniel (Liam Neeson),2,9
+5,33,Colin, Best sandwiches in Britain. ,Kris Marshall,Colin (Kris Marshall),1,4
+6,39,Jack," By the way, he introduced me as John but everyone calls me Jack.",Martin Freeman,Jack (Martin Freeman),2,3
+7,42,Peter, No surprises?,Chiwetel Ejiofor,Peter (Chiwetel Ejiofor),2,8
+8,51,PM,  Thank you.,Hugh Grant,PM (Hugh Grant),2,16
+9,80,Peter, And you resisted the temptation for surprises.,Chiwetel Ejiofor,Peter (Chiwetel Ejiofor),3,6
+10,86,Jamie, Hello! What the hell are you doing here?,Colin Firth,Jamie (Colin Firth),1,5
+11,98,Colin, Delicious delicacy?,Kris Marshall,Colin (Kris Marshall),2,11
+12,115,Colin, I've just worked out why I can't find true love.,Kris Marshall,Colin (Kris Marshall),2,9
+13,125,Jack, I turn a thought wouldn't make it. The traffic today was just...,Martin Freeman,Jack (Martin Freeman),2,12
+14,142,Daniel," Jo and I had a lot of time to prepare for this moment. Some of her requests, for instance, that I should bring Claudia Schiffer as my date to the funeral, I was confident she expected me to ignore. But others she was pretty damn clear about. When she first mentioned what's about to happen, I said, ""Over my dead body."" And she said, ""No, Daniel, over mine."" And as usual, my darling girl... and Sam's darling mum was right. So she's going to say her final farewell to you not through me but, inevitably, ever so coolly, through the immortal genius of the Bay City Rollers. ",Liam Neeson,Daniel (Liam Neeson),1,1
+15,145,Sarah, Do you love him?,Laura Linney,Sarah (Laura Linney),2,8
+16,154,Mia, Sarah's waiting for you.,Heike Makatsch,Mia (Heike Makatsch),4,23
+17,180,Billy," Except we've changed the word ""love"" to ""Christmas"".",Bill Nighy,Billy (Bill Nighy),2,10
+18,198,PM,  OK. What's next?,Hugh Grant,PM (Hugh Grant),1,3
+19,205,PM,  Yup - come in.,Hugh Grant,PM (Hugh Grant),2,7
+20,212,Jack,  So what do you reckon to our new prime minister?,Martin Freeman,Jack (Martin Freeman),2,11
+21,225,Colin,  Exciting news!,Kris Marshall,Colin (Kris Marshall),2,17
+22,242,Harry,"  Right, the Christmas party, not my favourite night of the year and your unhappy job to organise.",Alan Rickman,Harry (Alan Rickman),2,7
+23,249,Daniel,"  He now spends all the time in his room. I mean, he'll be up there now.",Liam Neeson,Daniel (Liam Neeson),2,11
+24,260,Daniel,"  So, what's the problem, Samuel? Is it just Mum or is it something else, huh?     Maybe school? Are you being bullied(êÇÇÔç_Õ_ÖÒù‹ Ô†_Õ´ÖÔ†_) ? Or is it something worse?     Can you give me any clues at all?",Liam Neeson,Daniel (Liam Neeson),2,15
+25,275,Karl,"  Night, Sarah.",Rodrigo Santoro,Karl (Rodrigo Santoro),2,2
+26,277,Jamie,  Alone again. Naturally.,Colin Firth,Jamie (Colin Firth),1,1
+27,279,PM,   Mm. ,Hugh Grant,PM (Hugh Grant),2,22
+28,301,Daniel,"  So, let's go. We can definitely crack this. Remember, I was a kid once, too.     So, come on, it's someone at school. Right?",Liam Neeson,Daniel (Liam Neeson),2,5
+29,307,Billy, I saw them on the show last week. They weren't very nice about my record.,Bill Nighy,Billy (Bill Nighy),1,6
+30,319,Mark," Just a minute. Actually, they're not funny. They're art.",Andrew Lincoln,Mark (Andrew Lincoln),3,18
+31,337,Harry, Any progress with our matchmaking plans? ,Alan Rickman,Harry (Alan Rickman),3,12
+32,349,Jamie," Ah, bonjour, Eleonore.",Colin Firth,Jamie (Colin Firth),2,10
+33,367,Jamie," (Pidgin Portuguese) Bello. Er, bella. Er, mon-montagno, arbore... No, right.    Silence is golden. As the Tremeloes said. Clever guys,    although I think the original version was by Frankie Valli And The Four Seasons. ",Colin Firth,Jamie (Colin Firth),1,1
+34,370,PM,"  Mr President, welcome.",Hugh Grant,PM (Hugh Grant),2,12
+35,396,PM,"  Er, yes, Peter.",Hugh Grant,PM (Hugh Grant),1,2
+36,403,PM,"  All right. Er, yes, I'm very busy and important, how can I help you?",Hugh Grant,PM (Hugh Grant),3,13
+37,418,PM,"  Yeah, erm, Mary, I've been thinking. Can we move the Japanese ambassador to four o'clock tomorrow?",Hugh Grant,PM (Hugh Grant),1,2
+38,421,Jamie," Erm. Would you like the last, er...?",Colin Firth,Jamie (Colin Firth),2,5
+39,426,Jamie, Thank you.,Colin Firth,Jamie (Colin Firth),2,30
+40,458,Juliet,  Banoffee pie?,Keira Knightley,Juliet (Keira Knightley),2,22
+41,,,,,,2,0
+42,480,PM,"  Yeah. Annie, my darling, my dream, my boat. Ah... Need you to do a favour for me.",Hugh Grant,PM (Hugh Grant),1,4
+43,488,Daniel,"  Hey, Sammo. Can't sleep?",Liam Neeson,Daniel (Liam Neeson),2,15
+44,506,PM,  Yeah.,Hugh Grant,PM (Hugh Grant),1,2
+45,509,Jamie,"  (Pidgin Portuguese) Oh. Appolo... Erm, appologia. Grande, er... grande familio,     grande tradizione de Christmas presents. Stupido. Well, goodbye.",Colin Firth,Jamie (Colin Firth),2,4
+46,513,Sam,  Daniel! I have a plan.,Thomas Sangster,Sam (Thomas Sangster),2,11
+47,524,Karen,  I suppose I'd better do the duty round.,Emma Thompson,Karen (Emma Thompson),3,9
+48,534,Billy,  Very bad indeed. Blue are outselling me five to one but I'm hoping for a late surge. ,Bill Nighy,Billy (Bill Nighy),1,2
+49,538,Sarah,"  I suppose it's his job to dance with everyone, isn't it?",Laura Linney,Sarah (Laura Linney),3,6
+50,545,Karl,"  Well, then. I better go.",Rodrigo Santoro,Karl (Rodrigo Santoro),2,25
+51,570,Karen,  That was a good night. Though I felt fat.,Emma Thompson,Karen (Emma Thompson),2,7
+52,577,Sarah,  Have you been watching stuff on TV?,Laura Linney,Sarah (Laura Linney),1,4
+53,583,Harry,"  Right. Back at three. Christmas shopping, never an easy or a pleasant task.",Alan Rickman,Harry (Alan Rickman),3,34
+54,637,Colin,  Hey!,Kris Marshall,Colin (Kris Marshall),2,5
+55,644,Judy,  No. That would be lovely.,Joanna Page,Judy (Joanna Page),1,1
+56,647,Karen,  Explain to me again why you're so late?,Emma Thompson,Karen (Emma Thompson),3,6
+57,659,Tony, You'll come back a broken man.,Abdul Salis,Tony (Abdul Salis),2,21
+58,720,Karen, One present only each tonight. Who's got one for Dad?,Emma Thompson,Karen (Emma Thompson),2,13
+59,738,Daniel,  Has she noticed you yet?,Liam Neeson,Daniel (Liam Neeson),2,7
+60,747,Billy, Hello.,Bill Nighy,Billy (Bill Nighy),1,4
+61,754,Jack, Right.,Martin Freeman,Jack (Martin Freeman),2,7
+62,763,Jamie," Yes, oh, splendid. It's lovely to see you all. And, er... I'm off, actually.",Colin Firth,Jamie (Colin Firth),1,2
+63,767,Karl," Night, Sarah.",Rodrigo Santoro,Karl (Rodrigo Santoro),2,5
+64,772,Daniel," Sam, time for dinner.",Liam Neeson,Daniel (Liam Neeson),2,5
+65,778,Juliet," I'll get it. Oh, hi.",Keira Knightley,Juliet (Keira Knightley),3,6
+66,785,Joe, What the hell are you doing here? You're supposed to be at Elton John's.,Gregor Fisher,Joe (Gregor Fisher),2,18
+67,803,Natalie," Dear sir, Dear David, 'Merry Christmas and I hope you have a very happy New Year. I'm very sorry about the thing that happened. It was a very odd moment and I feel like a prize idiot. Particularly because - if you can't say it at Christmas, when can you, eh? - I'm actually yours. With LOVE.  xxx Your Natalie.",Martine McCutcheon,Natalie (Martine McCutcheon),3,17
+68,828,PM," Ah. Hello. Is, er, Natalie in?",Hugh Grant,PM (Hugh Grant),2,23
+69,864,Jack, Erm...erm...,Martin Freeman,Jack (Martin Freeman),5,6
+70,870,Karen," Look, the sheep are ready already and you're not even... Oh, David.",Emma Thompson,Karen (Emma Thompson),3,23
+71,894,PM," Right. So, not quite as secret as we'd hoped.",Hugh Grant,PM (Hugh Grant),2,3
+72,897,Karen," Absolutely no idea. I mean, can you imagine? I'll see you later, all right? I'll speak to you. Bye.  Tell me, if you were in my position, what would you do?",Emma Thompson,Karen (Emma Thompson),2,8
+73,906,Daniel," Sammy! Fantastic show! Classic drumming, son.",Liam Neeson,Daniel (Liam Neeson),2,26
+74,937,Jamie, Good evening. Senhor Barros?,Colin Firth,Jamie (Colin Firth),1,4
+75,952,Daniel," Look, we're not actually flying. ",Liam Neeson,Daniel (Liam Neeson),2,10
+77,969,Sam, Joanna.,Thomas Sangster,Sam (Thomas Sangster),1,3
+78,978,Jamie," Boa noite, Aurelia.",Colin Firth,Jamie (Colin Firth),2,8
+79,990,Joe," Hello, Daisy.",Gregor Fisher,Joe (Gregor Fisher),15,23
